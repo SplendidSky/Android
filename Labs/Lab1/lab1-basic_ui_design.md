@@ -2,8 +2,6 @@
 
 > 最近更新注意：整个界面统一为中文
 
-[TOC]
-
 ### 【实验目的】
 
 1. 熟悉 Android Studio 开发工具操作
@@ -13,7 +11,7 @@
 
 实现一个Android应用，界面呈现如下效果：
 
- ![screen](doc_resource\screen.PNG)
+ ![screen](doc_resource/screen.PNG)
 
 
 
@@ -45,9 +43,9 @@ Android的组件分为布局和控件。布局，就是让控件在里面按一�
 
 Android的组件分为布局和控件。布局，就是让控件在里面按一定的次序排列好的一种组件，本身并不提供内容。控件，就是显示内容的组件，比如显示一张图片，显示文字等等。最基本也最常用的布局有以下四种：LinearLayout、RelativeLayout、TableLayout、FrameLayout。最常用的控件有以下几种：用于显示文字的TextView、用于显示图片的ImageView、用于接受用户输入的输入框EditText、按钮Button、单选按钮RadioButton，等等。以下简要介绍本次实验使用到的组件。
 
- ![linear_layout_horizontal](doc_resource\linear_layout_horizontal.PNG)
+ ![linear_layout_horizontal](doc_resource/linear_layout_horizontal.PNG)
 
- ![linear_layout_vertical](doc_resource\linear_layout_vertical.PNG)
+ ![linear_layout_vertical](doc_resource/linear_layout_vertical.PNG)
 
 LinearLayout比较重要的属性还有`layout_weight`, `gravity`等，用法自行查阅资料。
 
@@ -83,7 +81,7 @@ LinearLayout比较重要的属性还有`layout_weight`, `gravity`等，用法自
     android:text="第一次试验" />
 ```
 
-效果图： ![textview](doc_resource\textview.PNG)
+效果图： ![textview](doc_resource/textview.PNG)
 
 > 关于`@color/colorAccent`这种形式的资源引用后面会讲
 
@@ -103,9 +101,9 @@ LinearLayout比较重要的属性还有`layout_weight`, `gravity`等，用法自
 
 效果：
 
-未输入前： ![edittext_before](doc_resource\edittext_before.PNG)
+未输入前： ![edittext_before](doc_resource/edittext_before.PNG)
 
-输入之后： ![edittext_after](doc_resource\edittext_after.PNG)
+输入之后： ![edittext_after](doc_resource/edittext_after.PNG)
 
 ##### 5) ImageView
 
@@ -118,7 +116,7 @@ LinearLayout比较重要的属性还有`layout_weight`, `gravity`等，用法自
 	android:src="@mipmap/sysu"/>
 ```
 
- ![imageview](doc_resource\imageview.PNG)
+ ![imageview](doc_resource/imageview.PNG)
 
 > 关于ImageView的`src`和`background`属性的区别，自行查阅资料。
 
@@ -167,7 +165,7 @@ layout_margin指定外边距，padding指定内边距，这两个属性配合上
 
 当需要将一个button设置为圆角矩形时，光设置button的属性是达不到效果的，需要定义一个背景边框来达到这个效果：
 
- ![diy_background](doc_resource\diy_background.PNG)
+ ![diy_background](doc_resource/diy_background.PNG)
 
 这种自定义的背景边框定义在drawable文件夹下，所以为了不把它和图片混杂在一起，习惯上把图片放在mipmap文件夹下。
 
@@ -180,11 +178,11 @@ layout_margin指定外边距，padding指定内边距，这两个属性配合上
 
 1. 首先，需要在res/layout文件夹下写好布局文件
 
-    ![create_layout_1](doc_resource\create_layout_1.PNG)
+    ![create_layout_1](doc_resource/create_layout_1.PNG)
 
 2. 然后创建一个java文件
 
-    ![create_layout_2](doc_resource\create_layout_2.PNG)
+    ![create_layout_2](doc_resource/create_layout_2.PNG)
 
 3. 在该文件中将布局引入
 
@@ -268,7 +266,7 @@ style定义在res/values/styles.xml文件中，也是一种资源。例如当多
 
 4. 目录结构：
 
-    ![dir_structure](doc_resource\dir_structure.PNG)
+    ![dir_structure](doc_resource/dir_structure.PNG)
 
    其中项目代码文件为项目文件夹，提交之前先clean
 
