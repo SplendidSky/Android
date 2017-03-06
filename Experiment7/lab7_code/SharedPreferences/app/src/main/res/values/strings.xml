@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SharedPreferences</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="ok">OK</string>
+    <string name="clear">CLEAR</string>
+    <string name="save">SAVE</string>
+    <string name="load">LOAD</string>
+</resources>

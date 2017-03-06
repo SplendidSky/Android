@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11月1日"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/weather_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多云转晴"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="15℃/18℃"
+        android:id="@+id/temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

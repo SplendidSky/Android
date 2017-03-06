@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Broadcast</string>
+    <string name="static_register">静态注册</string>
+    <string name="dynamic_register">动态注册</string>
+    <string name="register_broadcast">Register Broadcast</string>
+    <string name="send">Send</string>
+    <string name="widget_name">Widget</string>
+</resources>

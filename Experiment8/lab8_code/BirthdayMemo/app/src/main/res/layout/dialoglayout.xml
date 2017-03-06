@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="o(*￣▽￣*)ブ"
+        android:textSize="20sp"
+        android:textColor="#1E90FF"
+        />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="5px"
+        android:background="#1E90FF"  />
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名： "/>
+        <TextView
+            android:id="@+id/update_name"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="老王家"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="生日： "/>
+        <EditText
+            android:id="@+id/update_birth"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="礼物： "/>
+        <EditText
+            android:id="@+id/update_gift"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="辣条"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="20sp"
+            android:textColor="#228B22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电话： "/>
+        <TextView
+            android:id="@+id/update_number"
+            android:textColor="#228B22"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=": 668393"/>
+    </LinearLayout>
+
+
+</LinearLayout>
